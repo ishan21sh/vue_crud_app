@@ -1,0 +1,73 @@
+@import "./base.css";
+@import "bootstrap";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #261f47;
+}
+* {
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.navbar-color {
+  background-color: #514983 !important;
+}
+
+.eachCardContainer {
+  border: 1px solid black;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.6rem;
+  background-color: #dabbfa;
+}
+
+.titleContainer {
+  padding: 0.5rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.descriptionContainer {
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+.buttonContainer {
+  margin: 0.5rem;
+}
+
+.btn {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.createNoteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.formContainer {
+  background-color: wheat;
+  width: 30%;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+
+.form-group {
+  margin: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
